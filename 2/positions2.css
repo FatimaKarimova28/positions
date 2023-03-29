@@ -1,0 +1,30 @@
+.parent{
+    border: 2px solid red;
+    width: 600px;
+    height: 600px;
+}
+.child{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    border-radius: 15%;
+    left: 40px;
+}
+.child1{
+    background-color: plum;
+    top: 300px;
+}
+.child2{
+    background-color: darkmagenta;
+    top: 450px;
+}
+
+.child3{
+    background-color: hotpink;
+    top: 230px;
+    z-index: 4;
+}
+.child4{
+    background-color: violet;
+    top: 160px;
+}
