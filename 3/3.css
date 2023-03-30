@@ -1,0 +1,21 @@
+#header{
+    height:  50px;
+    background-color: fuchsia;
+    
+}
+
+.scroll{
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px plum;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
